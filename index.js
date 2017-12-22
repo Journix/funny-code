@@ -39,5 +39,8 @@ window.Oops = {
             result = result.concat(tmpResult);
             doPush(a, tmpResult);
         }
-    }
+    },
+    /**
+     * 国际象棋
+     */
 }
