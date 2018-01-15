@@ -39,5 +39,16 @@ window.Oops = {
             result = result.concat(tmpResult);
             doPush(a, tmpResult);
         }
+    },
+    /**
+     * [test1 description]
+     * @param  {Array}  arr  [description]
+     * @param  {[type]} "2"  [description]
+     * @param  {[type]} "3"] [description]
+     * @return {[type]}      [description]
+     */
+    test1: function (arr = ["1", "2", "3"]) {
+        return arr.map(parseInt)
     }
+
 }
